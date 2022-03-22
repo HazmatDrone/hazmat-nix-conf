@@ -20,7 +20,7 @@
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOnWnu3d90ge9vZkcBVWO+DwFp8vfjaF37QzZh8uop9O Shortcuts on ResinPhone"
       "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCaec8IjqDhEKjOSewLvK0rVP6n+od+e6vDdeA0pY5N5JJ7QA+DbVoSIDVbjfNA3gXTbw/qUXn82N5MVI6zk2TXWTOoRbJuhVjUUbJlO3+oxjwQS7A+0zI8bppOXqPh5lZs9Y3V6F1qVFNDhGVwEq9LvknqPIRL/9jSznGfs1llQ9e8gDDKgiH0I2kk341z7zyyfkbO0f2W2IVed0TVPUP2rfQR7fGb6o/TgIq60I6kD7SwLN6jmfHR88Lle07IDTBcodp4sFHdCHrhx3N21gVMdGCoBTdbyNlLIs0LMEw6/D/FFU5Z+jvI0qgmTkSOpDkFXcyrhg0C1wdB7G4c6YISHJKVYQ/tTkYgyA8kqE2LJLjGvd2AZWWEXIBQl6k2CQMmNrV8hVfh7qi+7S2DpvLRgLS9S5lrAhrhEiO9VD4P7bgMLp8lOlwy7zQyZzJmRY/fOXCzyy4ieDD6YsRjtCxg68lUnaPOQH3xdpZWl4YsLkzU2Uq3f6Eec7g+NMYI+zk= resin@hazlaptop"
     ];
-  }
+  };
   programs.steam.enable=true;
   programs.steam.dedicatedServer.openFirewall=true;
 }
