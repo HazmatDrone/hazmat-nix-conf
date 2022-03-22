@@ -13,7 +13,7 @@
 
 
   networking = {
-    hostName = "大💦"; # Define your hostname.
+    hostName = "haznix"; # Define your hostname.
     useDHCP = false;
     networkmanager.enable = true;
     useNetworkd = true;
