@@ -9,8 +9,17 @@
    ./kde.nix
   ];
 
- # Use the systemd-boot EFI boot loader.
+  nix.autoOptimiseStore = true;
+  nix.gc.automatic = true;
+  nix.gc.options = "--delete-older-than 3d";
+  time.hardwareClockInLocalTime = true;
+  nixpkgs.config.allowUnfree = true;
 
+  # SwapDevices
+  swapDevices = [{
+      device = "/swap";
+      size = 1024 * 8; #8GB
+    }];
 
   networking = {
     hostName = "haznix"; # Define your hostname.
